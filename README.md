@@ -28,7 +28,7 @@ The script export_shapes.py uses contours and image moments to detect shapes dra
 
 The predict.py script reads in the images in Data/Cropped Shapes, and classifies each shape according to the trained model, named drawing_classification.h5 . The model is trained on the dataset found inside the Shapes folder. The dataset includes 4 classes: Circle, Square, Triangle, and Line. You can retrain the model by running the cnn.py script using the following command:
 	
-		$ python cnn.py
+	$ python cnn.py
 		
 After the predict.py script classifies the shapes, it exports the categories to Data/categories.txt, and calls on the draw_shapes.py .
 

@@ -5,7 +5,7 @@ scikit-image==0.13.1
 scikit-learn==0.19.1
 scipy==1.1.0
 tensorboard==1.8.0
-tensorflow==2.4.0
+tensorflow==2.9.3
 Keras==2.2.0
 Keras-Applications==1.0.2
 Keras-Preprocessing==1.0.1
